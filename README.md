@@ -1,7 +1,5 @@
 # medical-data-analysis
 
-Be careful about the encoding of the last column: it says ‘No’ if the patient showed up to their appointment, and ‘Yes’ if they did not show up.
-
 #Project Contents:
 This project will eventually contain:
 * A report communicating the findings
