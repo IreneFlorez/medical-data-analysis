@@ -1,9 +1,9 @@
 # medical-data-analysis
 
 #Project Contents:
-This project will eventually contain:
+This project contains:
 * A report communicating the findings
-    - looking at relationships between multiple variables: at least one dependent variable (No-show) and three independent variables (age, diabetes, handcap). The stated question(s) is investigated from multiple angles. At least three variables are investigated using both single-variable (1d) and multiple-variable (2d) explorations.
+    - looking at relationships between multiple variables: at least one dependent variable (No-show) and three independent variables (age, diabetes, week_day). The stated question(s) is investigated from multiple angles. At least three variables are investigated using both single-variable (1d) and multiple-variable (2d) explorations.
 
     - Uses NumPy and pandas where appropriate
 
