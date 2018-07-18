@@ -12,10 +12,10 @@ Using NumPy and Pandas, this project looks at relationships between multiple var
 - relevant statistics 
  
 ## Questions
-Which factors can help predict if a patient will miss their scheduled appointment? 
-What is the overall no-show percentage?
-What is the relationship between absenteeism and age?
-What is the relationship between absenteeism and appointment day?
+* Which factors can help predict if a patient will miss their scheduled appointment? 
+* What is the overall no-show percentage?
+* What is the relationship between absenteeism and age?
+* What is the relationship between absenteeism and appointment day?
 
 ## About the data
 A number of characteristics about the patient are included in each row:
