@@ -8,7 +8,7 @@ Using NumPy and Pandas, this project looks at relationships between multiple var
 * data set used
 * Jupyter and html files with the Python code written as part of the analysis
 - analysis and data wrangling documentation
-- data visualizations showing multiple comparisons and trends. 
+- data visualizations showing multiple comparisons and trends
 - relevant statistics 
  
 ## Questions
