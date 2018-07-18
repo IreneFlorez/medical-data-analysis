@@ -2,7 +2,7 @@
 
 #Project Contents:
 This project contains:
-* A report communicating the findings
+* A Jupyter and an html file communicating the findings
     - looking at relationships between multiple variables: at least one dependent variable (No-show) and three independent variables (age, diabetes, week_day). The stated question(s) is investigated from multiple angles. At least three variables are investigated using both single-variable (1d) and multiple-variable (2d) explorations.
 
     - Uses NumPy and pandas where appropriate
@@ -17,7 +17,7 @@ This project contains:
 * Python code written as part of the analysis
 * The data set used 
 
-#Question: 
+#Overview: 
 Why do 30% of patients miss their scheduled appointments?
 What factors are important for us to know in order to predict if a patient will show up for their scheduled appointment?
 
@@ -29,12 +29,19 @@ scholarship variable means this concept = https://en.wikipedia.org/wiki/Bolsa_Fa
 This dataset collects information from 100k medical appointments in Brazil and is focused on the question of whether or not patients show up for their appointment. A number of characteristics about the patient are included in each row.
 
 #Data Explanation:
-PatientId - Identification of a patient AppointmentID - Identification of each appointment Gender = Male or Female . Female is the greater proportion, woman takes way more care of they health in comparison to man. DataMarcacaoConsulta = The day of the actuall appointment, when they have to visit the doctor. DataAgendamento = The day someone called or registered the appointment, this is before appointment of course. Age = How old is the patient. Neighbourhood = Where the appointment takes place. Scholarship = Ture of False . Observation, this is a broad topic, consider reading this article https://en.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia Hipertension = True or False Diabetes = True or False Alcoholism = True or False Handcap = True or False SMS_received = 1 or more messages sent to the patient. No-show = True or False.
+- PatientId - Identification of a patient AppointmentID 
+- Identification of each appointment Gender = Male or Female
+- AppointmentDay = The day of the actuall appointment, when they have to visit the doctor. 
+- Age = How old is the patient. 
+- Neighbourhood = Where the appointment takes place. 
+- Scholarship = Ture of False . Observation, this is a broad topic, consider reading this article https://en.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia 
+- Hipertension = True or False Diabetes = True or False 
+- Alcoholism = True or False Handcap = True or False SMS_received = 1 or more messages sent to the patient. 
+- No-show = True or False.
+- ScheduledDay: tells us on what day the patient set up their appointment.
+- Neighborhood: indicates the location of the hospital.
+- Scholarship: indicates whether or not the patient is enrolled in Brasilian welfare program Bolsa Família.
 
-‘ScheduledDay’ tells us on what day the patient set up their appointment.
-‘Neighborhood’ indicates the location of the hospital.
-‘Scholarship’ indicates whether or not the patient is enrolled in Brasilian welfare program Bolsa Família.
-Be careful about the encoding of the last column: it says ‘No’ if the patient showed up to their appointment, and ‘Yes’ if they did not show up.
 
 #Data Source:
 Udacity & https://www.kaggle.com/joniarroba/noshowappointments/home
